@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:commonrpc="http://www.commonrpc.com/commonrpc"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.commonrpc.com/commonrpc http://www.commonrpc.com/commonrpc/commonrpc.xsd">
+    
+    <commonrpc:registry id="rpcRegistry" port="10009" timeout="500" token="1122" procotolType="1" codecType="4"></commonrpc:registry>
+    
+    <commonrpc:service id="IDemoService"  interfacename="test.cross.plateform.rocketrpc.demo.service.IDemoService" ref="demoService" filterRef="demoRpcFilter"></commonrpc:service>
+    
+    <bean id="demoService" class="test.cross.plateform.rocketrpc.demo.service.impl.DemoServiceImpl"></bean>
+    
+    
+    <bean id="demoRpcFilter" class="test.cross.plateform.rocketrpc.demo.service.impl.DemoRpcFilter"></bean>
+</beans>

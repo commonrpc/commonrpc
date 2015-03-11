@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:commonrpc="http://www.commonrpchttp.com/commonrpchttp"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.commonrpchttp.com/commonrpchttp http://www.commonrpchttp.com/commonrpchttp/commonrpchttp.xsd">
+    
+    <commonrpc:registry id="rpcRegistry" port="10009" timeout="500"></commonrpc:registry>
+    
+    <commonrpc:service id="IDemoService"  projectname="Demo" ref="demoService" httpType="POST" returnType="html"/>
+    
+    <bean id="demoService" class="test.cross.plateform.service.impl.DemoServiceImpl"></bean>
+    
+</beans>

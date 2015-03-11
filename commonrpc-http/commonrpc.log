@@ -1,0 +1,144 @@
+commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2e171570: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2e171570]; startup date [Wed Mar 11 21:38:38 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2e171570]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e
+ commonrpc Logger: INFO{DefaultSingletonBeanRegistry.java:421}-Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 21:39:25 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c48187
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c48187: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]; startup date [Wed Mar 11 21:46:28 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@40cfceab
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@40cfceab: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger:ERROR{ClassPoolUtils.java:48}-getMethodVariableName fail 
+ javassist.NotFoundException: sayDemo(..) is not found in com.cross.plateform.common.rpc.core.server.service.bean.RpcRouteInfo
+	at javassist.CtClassType.getDeclaredMethod(CtClassType.java:1186)
+	at com.cross.plateform.common.rpc.core.util.ClassPoolUtils.getMethodVariableName(ClassPoolUtils.java:35)
+	at com.cross.plateform.common.rpc.core.server.service.impl.CommonRpcRouteServiceImpl.methodInvoke(CommonRpcRouteServiceImpl.java:57)
+	at com.cross.plateform.common.rpc.core.server.handler.impl.RpcHttpServerHandlerImpl.methodInvoke(RpcHttpServerHandlerImpl.java:43)
+	at com.cross.plateform.common.rpc.http.netty4.server.thread.CommonRpcHttpServerTask.call(CommonRpcHttpServerTask.java:90)
+	at com.cross.plateform.common.rpc.http.netty4.server.thread.CommonRpcHttpServerTask.call(CommonRpcHttpServerTask.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 21:50:03 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]; startup date [Wed Mar 11 21:55:37 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 21:58:01 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@b095dcb
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b095dcb: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2157a5c3: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2157a5c3]; startup date [Wed Mar 11 22:01:03 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2157a5c3]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4503636: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4503636]; startup date [Wed Mar 11 22:03:14 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4503636]: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c48187
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c48187: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 22:05:06 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af86f0e: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 22:08:48 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63706821
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63706821: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6c60efe7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@6c60efe7]; startup date [Wed Mar 11 22:10:53 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@6c60efe7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4bbd8575
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4bbd8575: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]; startup date [Wed Mar 11 22:12:06 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5a68c1b6
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5a68c1b6: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]; startup date [Wed Mar 11 22:16:24 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@40cfceab
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@40cfceab: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c]; startup date [Wed Mar 11 22:18:51 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@276b998f
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@276b998f: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@143b64f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@143b64f]; startup date [Wed Mar 11 22:19:50 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@143b64f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f: display name [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]; startup date [Wed Mar 11 22:21:30 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@475fd2f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2e171570: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2e171570]; startup date [Wed Mar 11 22:22:34 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2e171570]: org.springframework.beans.factory.support.DefaultListableBeanFactory@13ecc016
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13ecc016: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]; startup date [Wed Mar 11 22:26:00 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5e411af2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c4336ff: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ commonrpc Logger: INFO{AbstractApplicationContext.java:411}-Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c]; startup date [Wed Mar 11 22:54:58 CST 2015]; root of context hierarchy
+ commonrpc Logger: INFO{XmlBeanDefinitionReader.java:323}-Loading XML bean definitions from class path resource [CommonRpcHttpServer.xml]
+ commonrpc Logger: INFO{AbstractApplicationContext.java:426}-Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4b942a3c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@92e8f81
+ commonrpc Logger: INFO{DefaultListableBeanFactory.java:414}-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@92e8f81: defining beans [rpcRegistry,Demo,demoService]; root of factory hierarchy
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:105}------------------开始启动--------------------------
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:107}-端口号：10009的服务端已经启动,作者:liubing
+ commonrpc Logger: INFO{CommonRpcHttpServer.java:108}------------------启动结束--------------------------
+ 
